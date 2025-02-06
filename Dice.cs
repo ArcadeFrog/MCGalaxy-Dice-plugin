@@ -69,8 +69,8 @@ namespace myServer {
     }
 
     public override void Help(Player p) {
-      Player.Message(p, "%T/dice");
-      Player.Message(p, "%HRoll dice.");
+      p.Message("%T/dice");
+      p.Message("%HRoll dice.");
     }
 
   }
